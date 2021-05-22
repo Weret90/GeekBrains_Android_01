@@ -71,9 +71,11 @@
         android:text="Отметить" />
 
     <Button
+        android:layout_marginTop="50dp"
         android:id="@+id/switchLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="switchLayout" />
+        android:onClick="switchLayout"
+        android:text="переход"/>
 
 </LinearLayout>
